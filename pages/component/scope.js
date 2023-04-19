@@ -35,7 +35,7 @@ export const data = {
   ],
 };
 
-export function Scope() {
+export default function Scope() {
 const { systemTheme, theme, setTheme } = useTheme();
 const currentTheme = theme === 'system' ? systemTheme : theme;
 
