@@ -47,7 +47,7 @@ export default function Home() {
   }
   useEffect(()=>{
     fetchRepo()
-  },[])
+  })
   return (
     <>
       <Head>

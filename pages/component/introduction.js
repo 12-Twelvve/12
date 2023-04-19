@@ -41,7 +41,7 @@ export default function Introduction() {
           {/* info  */}
           <Box>
             <Typography className={inter.className} mt={6} variant="h4"  component="div">
-              I'm KUBER BUDHATHOKI
+              I&apos;m KUBER BUDHATHOKI
             </Typography>
             <Typography sx={{ mb: 1.5 }} color={theme=="dark"?"white":"text.secondary"}>
               You can trust me with your Black Pearl.  
@@ -63,7 +63,7 @@ export default function Introduction() {
               aria-label="contacts"
             >
               {expertise.map((ex)=>(
-            <Box color={theme=="dark"?"white":"black"}>
+            <Box key={ex} color={theme=="dark"?"white":"black"}>
             <ListItem disablePadding>
                 <ListItemIcon sx={{color:'inherit', display: 'block'}}>
                   <StarIcon />

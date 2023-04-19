@@ -60,7 +60,7 @@ export default function ArchiveArea(props){
       alignItems:'end',
       // overflow:"Hidden"
       }}>
-      {props.gitRepo?.map((repo) =><ProjectCard repo={repo}/> )}
+      {props.gitRepo?.map((repo) =><ProjectCard key={repo} repo={repo}/> )}
     </Box>
   )
 }

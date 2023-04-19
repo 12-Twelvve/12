@@ -94,6 +94,7 @@ function Navbar() {
             src={checked?'/kb_white.svg':'/kb.svg'}
             width={90}
             height={90}
+            alt='logo'
             />
           <Typography
             variant="h6"
@@ -175,6 +176,7 @@ function Navbar() {
                 src="/12.png"
                 width={80}
                 height={90}
+                alt='image of me'
                 />
                 <Box sx={{ my: 2, display: 'block', marginLeft:'30px' }}>
                   <MaterialUISwitch onChange={handleMode} sx={{ m: 1 }} checked={checked} />
