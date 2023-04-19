@@ -8,6 +8,7 @@ import {
   Tooltip,
   Legend,
 } from 'chart.js';
+
 import { Radar } from 'react-chartjs-2';
 import { useTheme } from "next-themes";
 
@@ -20,7 +21,7 @@ ChartJS.register(
   // Legend
 );
 
-export const data = {
+const data = {
   labels: ['Python', 'JavaScript', 'Communication','C++', 'R', 'SQL/NOSQL','Critical Thinking','Git'],
   datasets: [
     {

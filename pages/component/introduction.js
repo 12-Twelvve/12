@@ -1,14 +1,10 @@
 import * as React from 'react';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import { Box } from '@mui/material';
-import Image from 'next/image';
 import Typewriter from 'typewriter-effect';
-import { Inter, Roboto } from '@next/font/google'
+import { Roboto } from '@next/font/google'
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import StarIcon from '@mui/icons-material/Star';
@@ -22,6 +18,7 @@ const expertise = [" Visual Story telling",
                 " ML/Cognitive Computing Development", 
                 "Web and mobile app Design",
                 "UI/UX"]
+
 export default function Introduction() {
   const { systemTheme, theme, setTheme } = useTheme();
   const currentTheme = theme === 'system' ? systemTheme : theme;
