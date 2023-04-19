@@ -7,7 +7,7 @@ import { Box, Typography } from '@mui/material'
 import ArchiveArea from './component/archiveArea'
 import { Octokit } from 'octokit'
 import { useEffect, useState } from 'react'
-import { Scope } from './component/scope'
+import  Scope  from './component/scope'
 
 
 export default function Home() {
